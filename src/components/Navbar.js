@@ -1,7 +1,7 @@
 import React from "react"
 import logo from "../images/Vector.png"
 
-function Navbar() {
+const Navbar = () => {
     return (
         <nav className="nav">
             <img src={logo} alt="Brand-logo"/>
