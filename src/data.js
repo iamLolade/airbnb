@@ -14,6 +14,19 @@ export default [
     },
     {
         id: 2,
+        title: "Park Walk with Andrea",
+        description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
+        price: 125,
+        coverImg: "man-park.jpeg",
+        stats: {
+            rating: 5.0,
+            reviewCount: 30
+        },
+        location: "Online",
+        openSpots: 0,
+    },
+    {
+        id: 3,
         title: "Learn Wedding Photography",
         description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
         price: 125,
@@ -26,7 +39,20 @@ export default [
         openSpots: 27,
     },
     {
-        id: 3,
+        id: 4,
+        title: "Jungle Adventure",
+        description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
+        price: 125,
+        coverImg: "jungle.jpeg",
+        stats: {
+            rating: 4.9,
+            reviewCount: 30
+        },
+        location: "Kenya",
+        openSpots: 27,
+    },
+    {
+        id: 5,
         title: "Group Mountain Biking",
         description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
         price: 50,

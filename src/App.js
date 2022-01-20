@@ -3,17 +3,13 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
 import data from "./data"
+import Footer from "./components/Footer";
 
 const App = () => {
     const card = data.map(val => {
       return <Card
                 key={val.id} 
-                img={val.coverImg}
-                rating={val.stats.rating}
-                reviewCount={val.stats.reviewCount}
-                location={val.location}
-                title={val.title}
-                price={val.price}
+                {...val}
               />
     })
     return (
@@ -23,6 +19,7 @@ const App = () => {
             <section className="cards--list">
               {card}
             </section>
+            <Footer />
         </div>
     )
 }
